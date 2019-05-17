@@ -12,3 +12,6 @@ body{
 img:hover{
 	transform:scale(1.3);
 }
+button{
+	background-color: Transparent;
+}
