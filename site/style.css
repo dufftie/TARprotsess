@@ -4,6 +4,14 @@
 		2) Make picture scale 1 when un-hovered.
 		3) Make button transparent and add stroke to it.
 */
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+button:focus {
+    border: none;
+}
 h4{
     clear: both;
     margin-top: 20px;
