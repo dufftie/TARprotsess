@@ -18,3 +18,8 @@ img#enot:hover {
 img#enot {
 	transition: 1s;
 }
+
+button#new_btn {
+	opacity: 0.5;
+	border: 5px solid black ;
+}
