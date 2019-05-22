@@ -1,0 +1,1 @@
+document.header = 'JS TITLE'; //Сделай так, чтобы JS менял заголовок
