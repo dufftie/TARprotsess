@@ -4,6 +4,31 @@
 		2) Make picture scale 1 when un-hovered.
 		3) Make button transparent and add stroke to it.
 */
+h4{
+    clear: both;
+    margin-top: 20px;
+}
+
+.zoom{
+    overflow: hidden;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    border:1px solid #000;
+    float:left;
+    margin:10px;
+}
+.zoom img {
+    transition-duration: 4s;
+    margin: 0 auto;
+    display: block;
+}
+.zoom img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
 
 body{
 	color: white;
